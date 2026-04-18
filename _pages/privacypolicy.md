@@ -23,7 +23,7 @@ At **YouClip**, your privacy matters. This policy explains what data the app pro
 
 ## 2.0 Who We Are
 
-**YouClip** is published by **SixtyEdge**. For any privacy-related request, contact us at **m.aminearous@gmail.com**.
+**YouClip** is published by **SixtyEdge**. For any privacy-related request, contact us at **sixtyedge@gmail.com**.
 
 <br>
 
@@ -107,7 +107,7 @@ Because YouClip is published from the European Union, you have the right to:
 - Object to processing
 - File a complaint with a data protection authority (CNIL in France)
 
-To exercise these rights, email **m.aminearous@gmail.com**. Note that most of your data is already stored only on your device and is not accessible to us.
+To exercise these rights, email **sixtyedge@gmail.com**. Note that most of your data is already stored only on your device and is not accessible to us.
 
 <br>
 
@@ -125,7 +125,7 @@ We may update this policy. The "Last updated" date at the top will reflect any c
 
 ## 13.0 Contact
 
-**m.aminearous@gmail.com**
+**sixtyedge@gmail.com**
 
 <br>
 

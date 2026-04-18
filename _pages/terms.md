@@ -163,7 +163,7 @@ These Terms shall be governed by the laws of France, without regard to its confl
 
 For questions about these Terms of Use, contact us at:
 
-**m.aminearous@gmail.com**
+**sixtyedge@gmail.com**
 
 <br>
 
