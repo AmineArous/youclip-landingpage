@@ -2,7 +2,7 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1565655180                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 6762062662                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -12,7 +12,7 @@ presskit_download_link                    : #https://apps.apple.com/fr/app/id156
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : live the story experience differently!
+app_description                           : AI recaps for YouTube videos
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -20,7 +20,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Amine Arous                                
-your_link                                 : https://aminearous.github.io/coolstoryLandingPage/                     
+your_link                                 : https://aminearous.github.io/youclip-landingpage/
 your_city                                 : Paris                                
 email_address                             : m.aminearous@gmail.com
 facebook_username                         :                                           
@@ -34,34 +34,34 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Awesome social experience
-    description                           : Create modern Stories and share them with your followers on Instagram and Snapshat
-    fontawesome_icon_name                 : images
+  - title                                 : AI-Powered Summaries
+    description                           : Turn any YouTube video into a clear summary in seconds. Powered by Apple Intelligence — runs on your device, fully private.
+    fontawesome_icon_name                 : brain
 
-  - title                                 : One purchase
-    description                           : Purchase once and get access to all Stories templates!
-    fontawesome_icon_name                 : dollar-sign
+  - title                                 : Share from YouTube
+    description                           : Paste a link or share directly from the YouTube app. No account, no friction.
+    fontawesome_icon_name                 : share-alt
 
-  - title                                 : Gorgeous interface.
-    description                           : CoolStory is designed for ease-of-use and follows Apple's UI guidelines. CoolStory is adapted to lignt or dark mode appearance.
-    fontawesome_icon_name                 : palette
+  - title                                 : Listen on the Go
+    description                           : Every summary comes with an audio player. Turn your commute into learning time.
+    fontawesome_icon_name                 : headphones
 
 
 
 # Theme Settings
-topbar_color                              : "#000000"
+topbar_color                              : "#22C55E"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
+cover_overlay_color                       : "#0F2818"
 cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "#22C55E"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -70,7 +70,7 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
+feature_icons_foreground_color            : "#22C55E"
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"
