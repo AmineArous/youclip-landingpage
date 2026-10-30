@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**
-April 2026
+October 2026
 
 # Privacy Policy
 
@@ -16,7 +16,7 @@ At **YouClip**, your privacy matters. This policy explains what data the app pro
 ## 1.0 Summary
 
 - Summaries are generated **on your device by default** — nothing leaves your iPhone.
-- The optional Pro cloud summarization sends the video transcript to our EU backend, which relays it to a third-party AI provider. We do not store it.
+- The optional Pro cloud summarization sends the video transcript to our EU backend, which relays it to OpenRouter, a third-party AI routing service. We do not store it.
 - We do not sell your data. We do not have user accounts. No third-party tracking beyond the analytics described below.
 
 <br>
@@ -53,11 +53,11 @@ If you are a YouClip Pro subscriber and you select the cloud summarization mode,
 
 Our backend:
 - Acts as a stateless proxy
-- Forwards the transcript to a third-party AI provider
+- Forwards the transcript to [OpenRouter](https://openrouter.ai), which routes it to an AI model provider (Google Gemini by default, another provider if Gemini is unavailable)
 - Returns the generated summary to your device
 - **Does not persist the transcript or the summary**
 
-The third-party AI provider processes the transcript under its own privacy policy. We do not share any personal identifier with them — only the transcript text and the summarization parameters (mode, language).
+OpenRouter and the AI model provider process the transcript under their own privacy policies. We do not share any personal identifier with them — only the transcript text and the summarization parameters (mode, language).
 
 <br>
 
@@ -84,7 +84,8 @@ YouClip Pro is sold through Apple's in-app purchase system. Payment, billing, an
 ## 8.0 Third Parties
 
 - **Apple** — App Store, StoreKit, Apple Intelligence (on-device)
-- **Google** — YouTube public APIs, Cloud Functions hosting, Firebase Analytics, third-party AI provider (for Pro cloud summaries)
+- **Google** — YouTube public APIs, Cloud Functions hosting, Firebase Analytics, Gemini AI model (for Pro cloud summaries, via OpenRouter)
+- **OpenRouter** — routing of Pro cloud summaries to the AI model provider
 
 Your use of these services is subject to their own privacy policies.
 
