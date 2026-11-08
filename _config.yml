@@ -35,7 +35,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : AI-Powered Summaries
-    description                           : Turn any YouTube video into a clear summary in seconds. Powered by Apple Intelligence — runs on your device, fully private.
+    description                           : Turn any YouTube video into a clear summary in seconds.
     fontawesome_icon_name                 : brain
 
   - title                                 : Share from YouTube

@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**
-October 2026
+November 2026
 
 # Privacy Policy
 
@@ -15,8 +15,7 @@ At **YouClip**, your privacy matters. This policy explains what data the app pro
 
 ## 1.0 Summary
 
-- Summaries are generated **on your device by default** — nothing leaves your iPhone.
-- The optional Pro cloud summarization sends the video transcript to our EU backend, which relays it to OpenRouter, a third-party AI routing service. We do not store it.
+- To generate a summary, the app sends the video transcript to our EU backend, which relays it to OpenRouter, a third-party AI routing service. We do not store it.
 - We do not sell your data. We do not have user accounts. No third-party tracking beyond the analytics described below.
 
 <br>
@@ -47,9 +46,9 @@ YouTube (operated by Google) processes these requests under its own privacy poli
 
 <br>
 
-## 5.0 Cloud Summarization (Pro Only)
+## 5.0 Cloud Summarization
 
-If you are a YouClip Pro subscriber and you select the cloud summarization mode, the video transcript is sent to our backend at `europe-west1-youclip-app-2026.cloudfunctions.net` (Google Cloud Functions, EU region, Belgium).
+When you generate a summary, the video transcript is sent to our backend at `europe-west1-youclip-3eed9.cloudfunctions.net` (Google Cloud Functions, EU region, Belgium).
 
 Our backend:
 - Acts as a stateless proxy
@@ -83,9 +82,9 @@ YouClip Pro is sold through Apple's in-app purchase system. Payment, billing, an
 
 ## 8.0 Third Parties
 
-- **Apple** — App Store, StoreKit, Apple Intelligence (on-device)
-- **Google** — YouTube public APIs, Cloud Functions hosting, Firebase Analytics, Gemini AI model (for Pro cloud summaries, via OpenRouter)
-- **OpenRouter** — routing of Pro cloud summaries to the AI model provider
+- **Apple** — App Store, StoreKit
+- **Google** — YouTube public APIs, Cloud Functions hosting, Firebase Analytics, Gemini AI model (for cloud summaries, via OpenRouter)
+- **OpenRouter** — routing of cloud summaries to the AI model provider
 
 Your use of these services is subject to their own privacy policies.
 

@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**
-April 2026
+November 2026
 
 # Terms of Use
 
@@ -24,8 +24,7 @@ If you do not agree to these terms, please do not use the App.
 
 YouClip is an iOS app that generates AI summaries of YouTube videos.
 The App uses:
-- **Apple Intelligence** (on-device) for default summaries
-- An optional cloud summarization tier (YouClip Pro) relayed through our EU backend
+- Cloud AI summarization relayed through our EU backend
 - YouTube's public APIs to fetch transcripts and comments
 - Local device storage (SwiftData, Keychain, UserDefaults) for your history and preferences
 - Firebase Analytics for anonymous usage metrics
@@ -37,7 +36,6 @@ The App uses:
 
 YouClip requires:
 - iOS 26 or later
-- An iPhone compatible with Apple Intelligence (iPhone 15 Pro or newer) for on-device summaries
 
 <br>
 
@@ -77,7 +75,7 @@ You agree to use the App only with YouTube content that you are authorized to ac
 ## 7.0 In-App Purchases (YouClip Pro)
 
 ### 7.1 Subscription
-YouClip offers an optional Pro subscription that unlocks unlimited Apple Intelligence summaries, cloud summarization, advanced summary modes, comment analysis, and the audio player.
+YouClip offers an optional Pro subscription that unlocks more summaries, advanced summary modes, comment analysis, and the audio player.
 
 ### 7.2 Billing
 - Purchases are billed through your Apple ID account
@@ -115,7 +113,7 @@ You agree not to:
 ## 10.0 Third-Party Services
 
 ### 10.1 Apple Services
-The App integrates with Apple's services (App Store, StoreKit, Apple Intelligence). Your use of these services is subject to Apple's terms.
+The App integrates with Apple's services (App Store, StoreKit). Your use of these services is subject to Apple's terms.
 
 ### 10.2 Google Services
 The App relies on YouTube's public APIs, Google Cloud Functions, Firebase Analytics and a third-party AI provider. Your interaction with these services is subject to Google's terms.
